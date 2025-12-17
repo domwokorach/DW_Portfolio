@@ -1,12 +1,5 @@
-import { Navbar, Welcome, App } from "#components";
+import Navbar from "#components/Navbar.jsx";
+import Welcome from "#components/Welcome.jsx";
+import Dock from "#components/Dock.jsx";
 
-const App = () => {
-    return (
-        <main>
-            <Navbar />
-            <Welcome />
-        </main>
-    );
-}
-
-export default App;
+export { Navbar, Welcome, Dock };
